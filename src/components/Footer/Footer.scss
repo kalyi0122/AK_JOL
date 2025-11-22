@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.zlat {
+    background-color: black;
+    width: 1932px;
+    height: 331px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        color: rgba(232, 170, 49, 1);
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    p {
+        width: 1592px;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    img {
+        position: absolute;
+        width: 1950px;
+        left: 0px;
+        top: -136px;
+    }
+}
+
+.Footer {
+    /* Rectangle 6.5 */
+    width: 1922px;
+    margin: 0 auto;
+    height: 1071px;
+    // border: 2px solid red;
+    background: rgba(20, 20, 20, 1);
+    color: white;
+    // display: flex;
+    position: relative;
+
+
+    .container {
+        // border: 2px solid red;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .content {
+        position: absolute;
+        left: 163px;
+        top: 110px;
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            color: rgba(255, 255, 255, 1);
+            font-family: Montserrat;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        h3 {
+            color: rgba(255, 255, 255, 0.8);
+            font-family: Montserrat;
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+
+    .container2 {
+        position: absolute;
+        left: 530px;
+        top: 110px;
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            color: rgba(255, 255, 255, 1);
+            font-family: Montserrat;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        h3 {
+            color: rgba(255, 255, 255, 0.8);
+            font-family: Montserrat;
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+
+    .container3 {
+        // padding: 102px 920px;
+        position: absolute;
+        left: 920px;
+        top: 102px;
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            color: rgba(255, 255, 255, 1);
+            font-family: Montserrat;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        h3 {
+            color: rgba(255, 255, 255, 0.8);
+            font-family: Montserrat;
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+
+    .container4 {
+        position: absolute;
+        left: 1359px;
+        top: 102px;
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            color: rgba(255, 255, 255, 1);
+            font-family: Montserrat;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        h3 {
+            color: rgba(255, 255, 255, 0.8);
+            font-family: Montserrat;
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+
+    .hr {
+        position: absolute;
+        top: 489.5px;
+        left: 163px;
+        /* Line 23 */
+        width: 1575px;
+        height: 0;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+    }
+
+    .container5 {
+        position: absolute;
+        top: 525px;
+        left: 163px;
+
+        h2 {
+            color: rgba(255, 255, 255, 1);
+            font-family: Montserrat;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        h3 {
+            color: rgba(255, 255, 255, 0.8);
+            font-family: Montserrat;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        .num {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+        }
+
+        .site {
+            display: flex;
+            cursor: pointer;
+            gap: 15px;
+
+            img {
+                /* logo-whatsapp-png-transparent-background-8 4 */
+                width: 43.21px;
+                height: 43.21px;
+            }
+        }
+
+        .facebook {
+            font-size: 35px;
+            color: rgb(62, 62, 161);
+        }
+    }
+
+    .container6 {
+        position: absolute;
+        top: 525px;
+        left: 530px;
+
+        h3 {
+            color: rgba(255, 255, 255, 0.8);
+            font-family: Montserrat;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        h2 {
+            color: rgba(255, 255, 255, 1);
+            font-family: Montserrat;
+            font-size: 18px;
+            font-weight: 600;
+        }
+    }
+
+    .container7 {
+        position: absolute;
+        top: 525px;
+        left: 920px;
+        display: flex;
+        flex-direction: column;
+
+        
+
+        h3 {
+            font-family: Montserrat;
+            font-size: 18px;
+            font-weight: 500;
+            cursor: grabbing;
+            position: relative;
+
+            a {
+                color: rgba(232, 170, 49, 1);
+                text-decoration: none;
+                position: absolute;
+                top: 67px;
+                cursor: progress;
+                left: 100px;
+            }
+        }
+
+        h2 {
+            color: rgba(255, 255, 255, 1);
+            font-family: Montserrat;
+            font-size: 18px;
+            font-weight: 600;
+        }
+    }
+
+    .container8 {
+        position: absolute;
+        top: 520px;
+        left: 1359px;
+
+        h2 {
+            color: rgba(255, 255, 255, 1);
+            font-family: Montserrat;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        h3 {
+            color: rgba(255, 255, 255, 0.8);
+            font-family: Montserrat;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        input {
+            /* Rectangle 35 */
+            width: 300px;
+            height: 30px;
+            color: rgba(255, 255, 255, 0.52);
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 500;
+            border-radius: 3px;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 15px 20px;
+        }
+
+        .inp {
+            display: flex;
+            align-items: center;
+        }
+
+        .inp button {
+            /* Rectangle 41 */
+            width: 60px;
+            height: 64px;
+            border-radius: 3px;
+            background: rgba(232, 170, 49, 1);
+            border: none;
+
+            :hover {
+                background-color: rgba(122, 85, 12, 0.274);
+            }
+
+            .btn {
+                font-size: 28px;
+                color: white;
+            }
+
+        }
+
+        .inp button:hover {
+            background-color: rgb(255, 170, 0);
+        }
+
+        .sogl input {
+            width: 16px;
+            height: 16px;
+
+        }
+
+        .sogl {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .sogl h3 {
+            color: rgba(255, 255, 255, 0.8);
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+
+    .hrr {
+        /* Line 22 */
+        width: 1575px;
+        height: 0;
+        position: absolute;
+        top: 940px;
+        left: 163px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+    }
+
+    .content2 {
+        position: absolute;
+        top: 941px;
+        left: 163px;
+        display: flex;
+        gap: 470px;
+
+        p {
+            color: rgba(255, 255, 255, 0.8);
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        h4 {}
+    }
+}

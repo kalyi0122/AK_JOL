@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import API from "./API/Data"
 
@@ -8,12 +6,9 @@ function App() {
 
   return (
     <>
-    {/* {
-      datas 
-      {
-        item.map{}
-      }
-    } */}
+     <div>
+      
+     </div>
     </>
   )
 }
