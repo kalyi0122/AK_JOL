@@ -1,0 +1,24 @@
+.wrapper {
+  padding: 20px;
+}
+
+.image-block {
+  position: relative;
+  display: inline-block;
+}
+
+.knife-img {
+  width: 800px;
+  border-radius: 4px;
+}
+
+/* Прямоугольник поверх картинки */
+.rect {
+  position: absolute;
+  top: 350px;   /* регулируй */
+  left: 0px;
+  width: 806px;
+  height: 3px;
+  border: 2px solid #00aaff;
+  pointer-events: none;
+}

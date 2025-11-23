@@ -1,7 +1,8 @@
 import { createBrowserRouter } from "react-router-dom"
 import Home from "./pages/Home"
 import Layout from "./Layout/Layout"
- 
+import Wish from "./wish/Wish"
+
 export const myRouter = createBrowserRouter(
     [
         {
@@ -12,9 +13,10 @@ export const myRouter = createBrowserRouter(
                     path: "",
                     element: <Home />
                 },
-                // {
-                //     path: 
-                // }
+                {
+                    path: "/product-detail",
+                    element: <Wish />
+                }
             ]
         }
     ]
