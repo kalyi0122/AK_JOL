@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.blackHeader {
+    background-color: rgba(20, 20, 20, 1);
+    padding: 25px 170px;
+    display: flex;
+    justify-content: space-between;
+
+    .blHeaderLeft {
+        display: flex;
+        gap: 60px;
+        align-items: center;
+
+        li {
+            color: white;
+            list-style: none;
+            color: rgba(255, 255, 255, 1);
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 20px;
+        }
+    }
+
+    .blHeaderRight {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        .avatar {
+            font-size: 40px;
+            color: white;
+        }
+
+        h1 {
+            color: white;
+            color: rgba(255, 255, 255, 1);
+            font-family: Montserrat;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 22px;
+        }
+    }
+}
+
+.whiteHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 170px;
+
+    .searchHeader {
+        width: 377px;
+        height: 41px;
+        position: relative;
+
+        .lupa{
+            font-size: 15px;
+            position: absolute;
+            top: 14px;
+            left: 20px;
+            color: grey;
+        }
+
+        input {
+            width: 377px;
+            height: 41px;
+            border-radius: 3px;
+            background: rgba(7, 7, 7, 0.03);
+            border: black 1px solid;
+            color: grey;
+            padding-left: 40px;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+
+    .cityHeader {
+        display: flex;
+        font-family: Montserrat;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 22px;
+
+        .map {
+            font-size: 40px;
+        }
+    }
+
+    .logo {
+        width: 190px;
+        height: 42.45px;
+    }
+
+    .headerRight {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        .numberHeader {
+            h1 {
+                font-family: Montserrat;
+                font-size: 18px;
+                font-weight: 600;
+            }
+
+            h2 {
+                color: rgba(232, 170, 49, 1);
+                font-family: Montserrat;
+                font-size: 18px;
+                font-weight: 700;
+            }
+        }
+
+        .zakazHeader {
+            h1 {
+                font-family: Montserrat;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 20px;
+            }
+
+            h2 {
+                color: rgba(232, 170, 49, 1);
+                font-family: Montserrat;
+                font-size: 16px;
+                font-weight: 700;
+            }
+        }
+
+        .heartHeader {
+            font-size: 50px;
+        }
+
+        .cartHeader {
+            font-size: 50px;
+        }
+    }
+
+}
