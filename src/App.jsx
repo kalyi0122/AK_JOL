@@ -7,13 +7,10 @@ import API from "./API/Data"
 function App() {
 
   return (
-    <>
-    {/* {
-      datas 
-      {
-        item.map{}
-      }
-    } */}
+    <> 
+
+
+    
     </>
   )
 }
