@@ -8,7 +8,7 @@ import { myRouter } from './router'
 
 function App() {
 
-  return (
+  return(
     <>
       <RouterProvider router={myRouter} />
     </>
