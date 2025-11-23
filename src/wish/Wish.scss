@@ -1,0 +1,127 @@
+.container {
+max-width: 1440px;
+width: 100%;
+margin: 0 auto;
+
+
+    .image {
+
+        img {
+            /* Nozh-Snegir-95H18-Nakladki-karelskaya-bereza-foto-02 1 */
+            width: 837px;
+            height: 574px;
+        }
+
+        .fomage {
+            position: relative;
+        }
+
+        .fomage img {
+            /* Nozh-Snegir-95H18-Nakladki-karelskaya-bereza-foto-04 1 */
+            width: 310px;
+            height: 195px;
+            // border: 2px solid red;
+            // position: absolute;
+            object-fit: contain;
+        }
+        .box1{
+            position: absolute;
+            left: 345px;
+        }
+
+        .box2 {
+            position: absolute;
+            left: 120px;
+        }
+
+        .box3 {
+            position: absolute;
+            left: 495px;
+        }
+
+
+    }
+}
+.wishTxt {
+    // height: 1000px;
+    margin-left: 20px;
+    width: 806px;
+    height: 788px;
+}
+
+.rate h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.stars {
+    color: gold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.display{
+    display: flex;
+    align-items: center;
+}
+.stock {
+    color: green;
+    margin-bottom: 15px;
+}
+
+.params li {
+    list-style: none;
+    margin-bottom: 5px;
+    color: rgba(20, 20, 20, 0.5);
+
+
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.price {
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.cartBtn, .buy1Click {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.selectBlock {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 250px;
+}
+
+.param {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.param span {
+    font-size: 16px;
+}
+
+.param select {
+    width: 150px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background: white;
+    appearance: none; /* скрывает стандартную стрелку */
+    background-image: url('/your-arrow.svg'); /* сюда вставь путь к черной стрелке */
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+}
